@@ -12,14 +12,15 @@
         android:orientation="horizontal"
         android:layout_gravity="center_horizontal">
 
-        <TextView
+        <ImageView
             android:id="@+id/btn_paint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/image_edit_menu_margin"
             android:gravity="center"
-            android:text="@string/draw"
+            android:src="@drawable/draw_normal"
+            android:contentDescription="@string/draw"
             android:textColor="@color/white"
             android:textSize="@dimen/image_edit_text_size"/>
 
@@ -35,47 +36,51 @@
             android:textSize="@dimen/image_edit_text_size"
             android:visibility="invisible"/>-->
 
-        <TextView
+        <ImageView
             android:id="@+id/btn_filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/image_edit_menu_margin"
             android:gravity="center"
-            android:text="@string/filter"
+            android:src="@drawable/image_edit_icon_filter"
+            android:contentDescription="@string/filter"
             android:textColor="@color/white"
             android:textSize="@dimen/image_edit_text_size"/>
 
-        <TextView
+        <ImageView
             android:id="@+id/btn_crop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/image_edit_menu_margin"
             android:gravity="center"
-            android:text="@string/crop"
+            android:src="@drawable/crop_normal"
+            android:contentDescription="@string/crop"
             android:textColor="@color/white"
             android:textSize="@dimen/image_edit_text_size"/>
 
-        <TextView
+        <ImageView
             android:id="@+id/btn_rotate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/image_edit_menu_margin"
             android:gravity="center"
-            android:text="@string/rotate"
+            android:src="@drawable/rotate_normal"
+            android:contentDescription="@string/rotate"
             android:textColor="@color/white"
             android:textSize="@dimen/image_edit_text_size"/>
 
-        <TextView
+        <ImageView
             android:id="@+id/btn_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/image_edit_menu_margin"
             android:gravity="center"
-            android:text="@string/text"
+            android:src="@drawable/image_edit_icon_text"
+            android:contentDescription="@string/text"
             android:textColor="@color/white"
             android:textSize="@dimen/image_edit_text_size"/>
 
